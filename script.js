@@ -1,6 +1,4 @@
-// =========================
-// MOBILE MENU
-// =========================
+
 
 const menuBtn = document.getElementById("menuBtn");
 
@@ -14,11 +12,6 @@ menuBtn.addEventListener("click", function () {
 });
 
 
-
-// =========================
-// CLOSE MENU AFTER CLICKING
-// A LINK
-// =========================
 
 const navItems = document.querySelectorAll(
     ".nav-links a"
@@ -35,11 +28,6 @@ navItems.forEach(function (item) {
 
 });
 
-
-
-// =========================
-// CONTACT FORM
-// =========================
 
 const contactForm =
     document.querySelector(".contact-form");
@@ -88,11 +76,6 @@ contactForm.addEventListener(
     }
 );
 
-
-
-// =========================
-// CURRENT YEAR
-// =========================
 
 document.getElementById("year").textContent =
     new Date().getFullYear();
