@@ -150,6 +150,10 @@ header {
     background-color: #557A64;
 }
 
+.hero-image{
+    margin-top: 80px;
+}
+
 .hero-image img {
     width: 400px;
     height: 400px;
