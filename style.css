@@ -150,14 +150,19 @@ header {
     background-color: #557A64;
 }
 
+.hero {
+    position: relative;
+}
+
 .hero-image{
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 80px;
+    right: 7%;
 }
 
 .hero-image img {
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     object-fit: cover;
     border-radius: 50%;
     border: 4px solid #B7C9A8;
